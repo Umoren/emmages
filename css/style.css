@@ -1,0 +1,690 @@
+/*
+    Theme Name: Laura
+    Theme URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+  line-height: 1.4;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.img-wrap{
+  height: 75vh;
+  width: 100%;
+  /* background-color: red; */
+  /* margin-left: 2.5rem; */
+  margin-right: 0;
+  margin-top: 2rem;
+  box-shadow:  3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+}
+
+.img1{
+  background-image: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640318/Hope_sm.jpg'),url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640337/14.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640442/musse_III_sm.jpg')  ;
+  background-position: left top, center bottom, right top;
+  background-repeat: no-repeat;
+  height: 75vh;
+  width: 100%;
+  background-size: contain;
+  border-radius: 2px;
+  opacity: .9;
+}
+
+.img-wrap:hover{
+  margin-left: 10px;
+}
+.img1:hover{
+  opacity: 1;
+}
+
+.img2{
+  background-image: url('https://res.cloudinary.com/samtech/image/upload/v1577640424/Justina-64.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640272/Bridal_Prep_18.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640525/smaller.jpg')  ;
+  background-position: left   , center bottom, right top;
+  background-repeat: no-repeat;
+  height: 75vh;
+  width: 100%;
+  background-size: contain;
+  border-radius: 2px;
+  opacity: .9;
+}
+.img2:hover{
+  opacity: 1;
+}
+
+.img3{ 
+  background-image: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640453/EMC_19-209.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640499/Shine_68.jpg')  ;
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  height: 75vh;
+  width: 100%;
+  background-size: contain;
+  border-radius: 2px;
+  opacity: .9;
+}
+.img3:hover{
+  opacity: 1;
+}
+
+.img4{
+  background-image:  url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640325/Export-1.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640515/Lr_Export-78.jpg')  ;
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  height: 75vh;
+  width: 100%;
+  background-size: contain;
+  border-radius: 2px;
+  opacity: .9;
+}
+.img4:hover{
+  opacity: 1;
+}
+
+
+
+div.btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 45%;
+  border: 3px solid #ffffff;
+  padding: 15px;
+  width: 30%;
+  /* font-size: 1.8rem !important; */
+  left: 35%;
+  cursor: pointer;
+}
+.btn-box:hover{
+  background-color: rgba(255, 255, 255, .4);
+}
+a.btn-type{
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.btn-type{
+  background: none;
+  color: #ffffff;
+}
+
+.imaging{
+  width: 90% !important;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  outline: none;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+/***********************************
+************************************
+Responsive media queries
+************************************
+***********************************/
+
+.header {
+  background: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640452/Vivitar-213.jpg'), url('https://res.cloudinary.com/samtech/image/upload/v1577640250/e_improve/emmages1.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640412/Lr_Export-328_copy.jpg') ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top, center top, right top;
+  min-height: 700px;
+  position: relative;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: 0px;
+  padding: 20px 0;
+  transition: all 0.3s;
+}
+
+.navbar-brand {
+  font-size: 36px;
+  font-family: 'Lato', sans-serif;;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #fff;
+  outline: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  outline: none;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fffde0;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fffde0;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+		background: rgba(50, 60, 70, 0.9);
+	}
+}
+
+.top-nav-collapse {
+  padding: 0;
+  background: rgba(50, 60, 70, 0.9);
+}
+
+.bg-color {
+  background-color: RGBA(0, 0, 0, 0.67);
+  min-height: 700px;
+}
+
+.logo{
+  /* background-image: url('../img/likeness\ emmages\ logo-01.png'); */
+  height: 15vh;
+  margin-top: -4rem;
+  /* background-color: black; */
+  /* z-index: 4; */
+}
+.banner-text {
+  /* border-left: 5px solid #BE2525; */
+  padding: 15px 40px;
+  color: #fff;
+  margin-top: 200px;
+}
+
+.banner-text h2, .banner-text p {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+
+.banner-text p{
+  font-size: 30px;
+}
+
+.banner-text h2 span {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay-detail {
+  margin: 0 auto;
+}
+
+.overlay-detail a i {
+  text-align: center;
+  position: absolute;
+  bottom: -140px;
+  font-size: 24px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.deco {
+  font-family: 'Satisfy', cursive;
+}
+
+#about {
+  background: url('../img/about-banner.jpg') no-repeat;
+  background-size: cover;
+  margin-bottom: -3px;
+}
+
+.section-padding {
+  padding: 60px 0px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.title-text {
+  padding: 0px 25px 0px 0px;
+  border-right: 5px solid #BE2525;
+  font-size: 24px;
+}
+
+.about-text p {
+  color: #444;
+}
+
+.abt-list li {
+  padding: 5px 0px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#portfolio {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+}
+
+.grid-padding {
+  padding: 0 8px;
+}
+
+.grid-padding img {
+  margin-bottom: 15px;
+}
+
+.padding-right-zero {
+  padding-right: 0px !important;
+}
+
+#myGrid {
+  margin-top: 50px;
+}
+
+.test-sec blockquote {
+  background: #eee;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 15px;
+  position: relative;
+}
+
+.test-sec blockquote::after {
+  content: '';
+  position: absolute;
+  bottom: -14px;
+  margin-left: 10px;
+  border-top: 14px solid #eee;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid RGBA(0, 0, 0, 0.18);
+}
+
+.test-sec .carousel-info span {
+  display: block;
+}
+
+.test-sec span.testimonials-name {
+  color: #62646f;
+  font-weight: 600;
+  margin: 16px 0 5px;
+}
+
+#contact {
+  width: 100%;
+  background-color: RGBA(8, 7, 7, 0.92);
+}
+
+.form-control{
+  width: 70% !important;
+  padding: 2rem;
+}
+.col-md-push-2 {
+  left: 26.66666667%;
+}
+
+#contact .btn-primary {
+  /* background: #BE2525;
+  border: 1px solid #BE2525; */
+  width: 70% !important;
+
+}
+
+.validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#sendmessage {
+  color: green;
+  border: 1px solid green;
+  background: #fff;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+  display: block;
+}
+
+footer {
+  padding: 40px 0;
+  background:rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+}
+
+.footer a {
+  color: #BE2525;
+}
+
+.footer__navigation li, .social-list li {
+  display: inline-block;
+}
+
+.contact-sec h2 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+
+.footer__navigation li a {
+  display: inline-block;
+  color: #767676;
+  font-weight: 600;
+  font-variant-ligatures: common-ligatures;
+  font-size: 1.2em;
+  line-height: 1.625em;
+  margin-top: 0;
+  margin-bottom: 1.625em;
+  padding-right: 10px;
+}
+
+.contact-sec p {
+  color: #fff;
+  font-size: 18px;
+  padding: 16px 0px 24px;
+}
+
+.contact-sec i {
+  padding-right: 15px;
+}
+
+.contact-sec a {
+  color: #FFF;
+  /* background-color: RGBA(174, 142, 142, 0.7); */
+  display: inline-block;
+  padding: 16px 34px;
+  font-size: 18px;
+  transition: all 0.5s ease-in 0s;
+}
+
+.carousel-info, blockquote {
+  float: left;
+}
+
+.fa{
+  color: #ffffff !important;
+}
+.social-list li {
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  opacity: .5;
+  display: inline-block;
+  margin: 0;
+}
+
+.social-list li a {
+  font-size: 28px;
+  margin-right: 15px;
+}
+
+.type-underline, .type-underline:hover {
+  color: #767676;
+}
+
+.footer__lower {
+  margin-top: 3.25em;
+}
+
+.type--fine-print {
+  color: #767676;
+}
+
+.navbar-toggle {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.navbar-brand {
+  margin-top: 9px;
+}
+
+.grid-item {
+  width: 200px;
+}
+
+.grid-item--width2 {
+  width: 400px;
+}
+
+/***********************************
+************************************
+Responsive media queries
+************************************
+***********************************/
+
+@media (min-width: 551px) and (max-width: 980px) {
+  .title-text {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 550px) {
+  .navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar-brand {
+    margin-top: 0px;
+  }
+  .carousel-info {
+    margin-bottom: 30px;
+  }
+  .type--fine-print {
+    text-align: center;
+  }
+  .text-center-xs {
+    text-align: center !important;
+  }
+  .social-list {
+    margin-bottom: 15px;
+  }
+  .banner-text h2, .banner-text p {
+    font-size: 30px;
+  }
+  .title-text {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .banner-text p{
+    font-size: 1.3rem;
+  }
+  .overlay-detail a i{
+    position: unset;
+    margin-top: 17rem;
+  }
+  .header {
+    background: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640452/Vivitar-213.jpg') ;
+    /* background-attachment: co; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-position: center ;
+    min-height: 700px;
+    position: relative;
+  }
+  
+  .img1{
+    background-image: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640318/Hope_sm.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    background-size: contain;
+    border-radius: 2px;
+    opacity: .9;
+  }
+  .img2{
+    background-image: url('https://res.cloudinary.com/samtech/image/upload/v1577640424/Justina-64.jpg') ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    background-size: contain;
+    border-radius: 2px;
+    opacity: .9;
+  }
+  .img3{
+    background-image:url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640453/EMC_19-209.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 2px;
+    opacity: .9;
+  }
+  .img4{
+    background-image:  url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640325/Export-1.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 2px;
+    opacity: .9;
+  }
+  .title{
+    width: 95%;
+  }
+  .social-list{
+    display: flex;
+    justify-content: center;
+  }  
+  .col-md-push-2 {
+    left: 16.66666667%;
+  }
+}
+
+@media (max-width: 425px){
+  .banner-text p{
+    font-size: 1.3rem;
+  }
+  .overlay-detail a i{
+    position: unset;
+    margin-top: 17rem;
+  }
+  .header {
+    background: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640452/Vivitar-213.jpg') ;
+    /* background-attachment: co; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-position: center ;
+    min-height: 700px;
+    position: relative;
+  }
+  
+  .img1{
+    background-image: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640318/Hope_sm.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    background-size: contain;
+    border-radius: 2px;
+    opacity: .9;
+  }
+  .img2{
+    background-image: url('https://res.cloudinary.com/samtech/image/upload/v1577640424/Justina-64.jpg') ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    background-size: contain;
+    border-radius: 2px;
+    opacity: .9;
+  }
+  .img3{
+    background-image:url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640453/EMC_19-209.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 2px;
+    opacity: .9;
+  }
+  .img4{
+    background-image:  url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640325/Export-1.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 2px;
+    opacity: .9;
+  }
+  .title{
+    width: 95%;
+  }
+  .social-list{
+    display: flex;
+    justify-content: center;
+  }  
+  .col-md-push-2 {
+    left: 16.66666667%;
+  }
+}
