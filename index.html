@@ -9,7 +9,7 @@
   <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
 
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fira+Sans|Roboto:300,400|Questrial|Satisfy">
-  <link rel="stylesheet" href="<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -19,7 +19,7 @@
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onload="myFunction()">
-  <div class="header">
+  <div class="header lazy" data-bg="url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640452/Vivitar-213.jpg'), url('https://res.cloudinary.com/samtech/image/upload/v1577640250/e_improve/emmages1.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640412/Lr_Export-328_copy.jpg')">
     <div class="bg-color">
       <header id="main-header">
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#">
-                <img src="https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640322/likeness_emmages_logo-01.png" class="logo" alt="">
+                <img src="https://res.cloudinary.com/samtech/image/upload/v1577640322/likeness_emmages_logo-01.png" class="logo" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="lauraMenu">
@@ -72,15 +72,15 @@
    </div>
     <div class="container">
       <div class="img-wrap">
-       <div class="img1 shadow">
+       <div class="img1 lazy" data-bg="url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640318/Hope_sm.jpg'),url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640337/14.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640442/musse_III_sm.jpg') ">
          <div class="btn-box text-center">
-           <a  class="btn btn-outline-dark btn-type"> Potraits </a>
+           <a  class="btn btn-outline-dark btn-type"> Portraits </a>
          </div>
        </div>
       </div>
 
       <div class="img-wrap">
-        <div class="img2">
+        <div class="img2 lazy" data-bg=" url('https://res.cloudinary.com/samtech/image/upload/v1577640424/Justina-64.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640272/Bridal_Prep_18.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640525/smaller.jpg')">
           <div class="btn-box text-center">
             <a class="btn btn-outline-dark btn-type"> Weddings </a>
           </div>
@@ -88,7 +88,7 @@
        </div>
 
        <div class="img-wrap">
-        <div class="img3">
+        <div class="img3 lazy" data-bg="url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640453/EMC_19-209.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640499/Shine_68.jpg') ">
           <div class="btn-box text-center">
             <a class="btn btn-outline-dark btn-type"> Events </a>
           </div>
@@ -96,9 +96,9 @@
        </div>
 
        <div class="img-wrap">
-        <div class="img4">
+        <div class="img4 lazy" data-bg=" url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640325/Export-1.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640515/Lr_Export-78.jpg')">
           <div class="btn-box text-center">
-            <a class="btn btn-outline-dark btn-type"> Brand</a>
+            <a class="btn btn-outline-dark btn-type"> Brands</a>
           </div>
         </div>
        </div>
@@ -156,16 +156,17 @@
           <div id="errormessage"></div>
           <form action="" method="post" role="form" class="contactForm">
             <div class="form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <input type="text" name="name" class="form-control" id="name" placeholder="John Doe" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <input type="email" class="form-control" name="email" id="email" placeholder="johndoe@gmail.com" data-rule="email" data-msg="Please enter a valid email" />
               <div class="validation"></div>
             </div>
 
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
+              placeholder="Hey I'm John Doe, I love your work, and would like to use your service."></textarea>
               <div class="validation"></div>
             </div>
 
@@ -214,6 +215,8 @@
   <script src="js/jquery.bxslider.min.js"></script>
   <script src="js/wow.js"></script>
   <script src="js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/lozad"></script> -->
   <script src="contactform/contactform.js"></script>
 
 </body>

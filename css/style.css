@@ -148,7 +148,7 @@ Responsive media queries
 ************************************
 ***********************************/
 
-.header {
+.header  {
   background: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640452/Vivitar-213.jpg'), url('https://res.cloudinary.com/samtech/image/upload/v1577640250/e_improve/emmages1.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640412/Lr_Export-328_copy.jpg') ;
   background-attachment: fixed;
   background-repeat: no-repeat;
