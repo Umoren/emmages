@@ -1,9 +1,4 @@
-/*
-    Theme Name: Laura
-    Theme URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
+
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 body {
   line-height: 1.4;
@@ -12,8 +7,21 @@ body {
   letter-spacing: 0.5px;
   font-size: 15px;
   font-weight: 400;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  width: 100%;
+}
+html{
+  width: 100%;
+  margin: 0 auto;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
 .img-wrap{
   height: 75vh;
   width: 100%;
@@ -111,10 +119,6 @@ a.btn-type{
   color: #ffffff;
 }
 
-.imaging{
-  width: 90% !important;
-}
-
 ol, ul {
   list-style: none;
 }
@@ -141,12 +145,6 @@ a:hover, a:focus, a:active {
   text-decoration: none;
   outline: none;
 }
-
-/***********************************
-************************************
-Responsive media queries
-************************************
-***********************************/
 
 .header  {
   background: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640452/Vivitar-213.jpg'), url('https://res.cloudinary.com/samtech/image/upload/v1577640250/e_improve/emmages1.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640412/Lr_Export-328_copy.jpg') ;
@@ -276,16 +274,6 @@ Responsive media queries
   padding: 0px 25px 0px 0px;
   border-right: 5px solid #BE2525;
   font-size: 24px;
-}
-
-.about-text p {
-  color: #444;
-}
-
-.abt-list li {
-  padding: 5px 0px;
-  font-size: 18px;
-  font-weight: 400;
 }
 
 #portfolio {
@@ -545,9 +533,16 @@ Responsive media queries
   .title-text {
     margin-bottom: 15px;
   }
+  .logo{
+    height: 8rem !important;
+    margin-left: -4rem !important;
+    position: relative;
+    bottom: 3rem !important;
+  }
 }
 
 @media (max-width: 360px) {
+
   .banner-text p{
     font-size: 1.3rem;
   }
@@ -616,11 +611,33 @@ Responsive media queries
   .col-md-push-2 {
     left: 16.66666667%;
   }
+  .logo{
+    height: 8rem !important;
+    margin-left: -4rem !important;
+    position: relative;
+    bottom: 1rem !important;
+  }
+  .navbar-default{
+    width: 86% !important;
+  }
 }
 
+
+
 @media (max-width: 425px){
+
+  .navbar-default{
+    width: 86% !important;
+  }
   .banner-text p{
     font-size: 1.3rem;
+  }
+  .logo{
+    height: 8rem !important;
+    margin-left: -4rem !important;
+    position: relative;
+    top: 1rem;
+    /* bottom: 3rem !important; */
   }
   .overlay-detail a i{
     position: unset;
