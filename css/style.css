@@ -33,7 +33,7 @@ html{
 }
 
 .img1{
-  background-image: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640318/Hope_sm.jpg'),url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640337/14.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640442/musse_III_sm.jpg')  ;
+  background-image: url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640318/Hope_sm.jpg'),url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640337/14.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640442/musse_III_sm.jpg')  ;
   background-position: left top, center bottom, right top;
   background-repeat: no-repeat;
   height: 75vh;
@@ -51,7 +51,7 @@ html{
 }
 
 .img2{
-  background-image: url('https://res.cloudinary.com/samtech/image/upload/v1577640424/Justina-64.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640272/Bridal_Prep_18.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640525/smaller.jpg')  ;
+  background-image: url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640424/Justina-64.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640272/Bridal_Prep_18.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640525/smaller.jpg')  ;
   background-position: left   , center bottom, right top;
   background-repeat: no-repeat;
   height: 75vh;
@@ -65,7 +65,7 @@ html{
 }
 
 .img3{ 
-  background-image: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640453/EMC_19-209.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640499/Shine_68.jpg')  ;
+  background-image: url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640453/EMC_19-209.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640499/Shine_68.jpg')  ;
   background-position: left top, right top;
   background-repeat: no-repeat;
   height: 75vh;
@@ -79,7 +79,7 @@ html{
 }
 
 .img4{
-  background-image:  url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640325/Export-1.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640515/Lr_Export-78.jpg')  ;
+  background-image:  url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640325/Export-1.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640515/Lr_Export-78.jpg')  ;
   background-position: left top, right top;
   background-repeat: no-repeat;
   height: 75vh;
@@ -147,7 +147,7 @@ a:hover, a:focus, a:active {
 }
 
 .header  {
-  background: url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640452/Vivitar-213.jpg'), url('https://res.cloudinary.com/samtech/image/upload/v1577640250/e_improve/emmages1.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/v1577640412/Lr_Export-328_copy.jpg') ;
+  background: url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640452/Vivitar-213.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640250/emmages1.jpg'), url('https://res.cloudinary.com/samtech/image/upload/e_improve/q_auto/f_auto/v1577640412/Lr_Export-328_copy.jpg') ;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: contain;
@@ -255,11 +255,6 @@ a:hover, a:focus, a:active {
   font-family: 'Satisfy', cursive;
 }
 
-#about {
-  background: url('../img/about-banner.jpg') no-repeat;
-  background-size: cover;
-  margin-bottom: -3px;
-}
 
 .section-padding {
   padding: 60px 0px;
